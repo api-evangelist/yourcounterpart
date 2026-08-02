@@ -1,8 +1,29 @@
 aid: yourcounterpart
 name: Yourcounterpart
-description: Yourcounterpart is a company surfaced as a portfolio company of felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Counterpart (yourcounterpart.com) is an insurtech managing general agent
+  offering management and professional liability insurance for small
+  businesses, positioning itself as the first Agentic Insurance system. It
+  underwrites Directors & Officers, Not-For-Profit D&O, Employment Practices,
+  Fiduciary, Commercial Crime, and Miscellaneous Professional Liability
+  coverage, pairing AI-driven underwriting and data infrastructure with 350+
+  risk-mitigation policy templates and claims management. Counterpart
+  distributes through 2,800+ brokers and exposes a Quote & Bind API partner
+  program that lets brokers and insurtech platforms embed instant bindable
+  quotes and coverage into their own branded workflows.
 url: https://raw.githubusercontent.com/api-evangelist/yourcounterpart/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/counterpart-v2-next/aJ95-KTt2nPbaXmO_2400_1260.png?auto=format,compress&w=2400&h=1260
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,15 +32,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
-- Company
-apis: []
+- Insurance
+- Insurtech
+- Management Liability
+- Professional Liability
+- Underwriting
+- Quote and Bind
+- Small Business
+- API Partner
+- Brokers
+- Financial Services
+apis:
+- name: Counterpart Quote & Bind API
+  description: >-
+    Broker and partner API to generate bindable management and professional
+    liability insurance quotes and bind coverage within a partner's own
+    platform with custom branding. Access is granted on application; public
+    endpoint documentation and OpenAPI are gated behind the partner program.
+  humanURL: https://yourcounterpart.com/services/api
+  tags:
+  - Insurance
+  - Quote and Bind
+  - API Partner
+  properties:
+  - type: SignUp
+    url: https://yourcounterpart.typeform.com/to/xuI0BJrw
+  - type: TermsOfService
+    url: https://yourcounterpart.com/api-terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DeveloperPortal
+  url: https://yourcounterpart.com/services/api
+- type: Support
+  url: https://knowledge.yourcounterpart.com/en/
+- type: Blog
+  url: https://blog.yourcounterpart.com/blog
+- type: Login
+  url: https://app.yourcounterpart.com/login
+- type: TermsOfService
+  url: https://yourcounterpart.com/terms
+- type: PrivacyPolicy
+  url: https://yourcounterpart.com/privacy
+- type: TrustCenter
+  url: https://trust.yourcounterpart.com
+- type: DomainSecurity
+  url: security/yourcounterpart-domain-security.yml
 - type: Website
   url: https://yourcounterpart.com
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
