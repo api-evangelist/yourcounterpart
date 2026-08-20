@@ -43,6 +43,17 @@ tags:
 - Small Business
 - API Partner
 - Brokers
+- Financial-Services
+tags_raw:
+- Insurance
+- Insurtech
+- Management Liability
+- Professional Liability
+- Underwriting
+- Quote and Bind
+- Small Business
+- API Partner
+- Brokers
 - Financial Services
 apis:
 - name: Counterpart Quote & Bind API
