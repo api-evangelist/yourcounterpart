@@ -54,7 +54,7 @@ tags:
 - Small Business
 - API Partner
 - Brokers
-- Financial-Services
+- Financial Services
 tags_raw:
 - Insurance
 - Insurtech
@@ -66,6 +66,7 @@ tags_raw:
 - API Partner
 - Brokers
 - Financial Services
+- Financial-Services
 apis:
 - name: Counterpart Quote & Bind API
   description: >-
